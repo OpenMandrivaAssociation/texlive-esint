@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/esint
+# catalog-date 2006-10-27 00:09:51 +0200
+# catalog-license pd
+# catalog-version 1.1
 Name:		texlive-esint
 Version:	1.1
 Release:	1
@@ -53,6 +59,7 @@ LaTeX macro support.
 #- source
 %doc %{_texmfdistdir}/source/latex/esint/esint.dtx
 %doc %{_texmfdistdir}/source/latex/esint/esint.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +70,5 @@ LaTeX macro support.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
