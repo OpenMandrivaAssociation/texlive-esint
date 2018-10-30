@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-esint
 Version:	1.1
-Release:	10
+Release:	11
 Summary:	Extended set of integrals for Computer Modern
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esint
