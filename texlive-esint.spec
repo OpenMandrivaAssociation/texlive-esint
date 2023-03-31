@@ -1,6 +1,6 @@
 Name:		texlive-esint
 Version:	52240
-Release:	1
+Release:	2
 Summary:	Extended set of integrals for Computer Modern
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esint
