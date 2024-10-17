@@ -3,7 +3,7 @@ Version:	52240
 Release:	2
 Summary:	Extended set of integrals for Computer Modern
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/esint
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/esint
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/esint.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/esint.doc.r%{version}.tar.xz
